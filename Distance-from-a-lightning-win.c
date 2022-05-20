@@ -12,10 +12,12 @@ int main(){
         if(SoundofThunder>0){
 			system("cls");
 			printf("O raio caiu aproximadamente a %.1fkm ou %.0fm", SoundofThunder/3, SoundofThunder*340);
+			system("pause");
         }else{
 			system("cls");
 			system("color f4");
             printf("O raio caiu muito próximo");
+			system("pause");
 		}
 
 	return 0;
